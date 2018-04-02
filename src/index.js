@@ -164,7 +164,6 @@ class UI extends React.Component {
 		sections: [
 		    {
 			options: [
-			    { label: '', value: ''},
 			    { label: 'Sweets', value: 'Sweets'},
 			    { label: 'Highness', value: 'Highness'},
 			    { label: 'Blade', value: 'Blade'},
@@ -196,7 +195,6 @@ class UI extends React.Component {
 		sections: [
 		    {
 			options: [
-			    { label: '', value: ''},
 			    { label: '1', value: 1},
 			    { label: '2', value: 2},
 			    { label: '3', value: 3},
@@ -209,7 +207,6 @@ class UI extends React.Component {
 		sections: [
 		    {
 			options: [
-			    { label: '', value: ''},
 			    { label: 'Yellow', value: 'isYellow'},
 			    { label: 'Red', value: 'isRed'},
 			    { label: 'Blue', value: 'isBlue'},
@@ -225,7 +222,6 @@ class UI extends React.Component {
 		sections: [
 		    {
 			options: [
-			    { label: '', value: ''},
 			    { label: 'Yellow Drums', value: 'Drums'},
 			    { label: 'Yellow Guitar', value: 'Guitar'},
 			    { label: 'Yellow Horns', value: 'Horns'},
@@ -242,7 +238,6 @@ class UI extends React.Component {
 		sections: [
 		    {
 			options: [
-			    { label: '', value: ''},
 			    { label: 'Red Drums', value: 'Drums'},
 			    { label: 'Red Guitar', value: 'Guitar'},
 			    { label: 'Red Horns', value: 'Horns'},
@@ -259,7 +254,6 @@ class UI extends React.Component {
 		sections: [
 		    {
 			options: [
-			    { label: '', value: ''},
 			    { label: 'Blue Drums', value: 'Drums'},
 			    { label: 'Blue Guitar', value: 'Guitar'},
 			    { label: 'Blue Horns', value: 'Horns'},
@@ -276,7 +270,6 @@ class UI extends React.Component {
 		sections: [
 		    {
 			options: [
-			    { label: '', value: ''},
 			    { label: 'Green Drums', value: 'Drums'},
 			    { label: 'Green Guitar', value: 'Guitar'},
 			    { label: 'Green Horns', value: 'Horns'},
@@ -479,7 +472,7 @@ function renderPage(query) {
     else {
 	ReactDOM.render(
 	    <div>
-		<UI query={query} />
+		<UI query={{}} />
 	    </div>,
 	    document.getElementById('root')
 	);
